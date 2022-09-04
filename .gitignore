@@ -11,3 +11,9 @@ Cargo.lock
 
 # Local only course documents
 *local.html
+
+# immediate sub directories setup by scripts
+tock/
+openocd/
+libtock-c/
+libtock-rs/
