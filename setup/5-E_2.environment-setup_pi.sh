@@ -13,3 +13,14 @@ make -j4
 sudo make install
 cd ..
 
+echo "1) Set up the serial login shell and disable the interface (see Environment Setup)"
+echo " - Run: sudo raspi-config"
+echo " - Choose: Interface Options->Serial Port"
+echo " - Select: 'Would you like a login shell to be accessible over serial' No"
+echo " - Select: 'Would you like the serial port harware to be enabled' Yes"
+echo ""
+echo "2) Manually on Pi 3 & 4, disable the BLE connection as well (otherwise UART will not be stable - see Environment Setup)"
+echo " - Open: /boot/config.txt"
+echo " - Add: dtoverlay=disable-bt"
+echo " - Add: enable_uart=1"
+echo ""
