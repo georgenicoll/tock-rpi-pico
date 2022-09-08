@@ -17,3 +17,6 @@ tock/
 openocd/
 libtock-c/
 libtock-rs/
+
+# possible downloads by setup scripts
+*.deb
