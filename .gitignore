@@ -17,3 +17,10 @@ openocd/
 
 # possible downloads by setup scripts
 *.deb
+
+# build files
+*.Map
+*.elf
+*.tbf
+*.tab
+*.o
